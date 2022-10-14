@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 5vh 5vw;
+}
+.grid-container a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.grid-container div p:last-child:before{
+    content: "";
+    width: 30%;
+    max-width: 100px;
+    height: 5px;
+    background-color: #FE5858;
+    display: inline-block;
+    margin: 20px 0;
+}
+.descrição{
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #f1f1f1;
+    font-size: .9em;
+    transform: translateY(100%);
+    transition: ease-out .35s;
+}
+.grid-container a:hover > .descrição{
+    transform: translateY(0);
+}
+.grid-container div p:first-child{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+}
+.grid-container div {
+    padding: 10px;
+    position: relative;
+}
+.grid-container div:nth-child(5){
+    grid-area: 2 / 1 / 4 / 3;
+}
+.grid-container div:nth-child(11){
+    grid-area: 4 / 2 / 5 / 4;
+}
+.grid-container div:nth-child(15){
+    grid-area: 5 / 3 / 7 / 5;
+}
+.grid-container div:nth-child(18){
+    grid-area: 7 / 1 / 8 / 3;
+}
+.grid-container div:nth-child(19){
+    grid-area: 7 / 3 / 8 / 5;
+}
+.grid-container div:nth-child(18), .grid-container div:nth-child(19), .grid-container div:nth-child(11){
+    background-image: none;
+    background-color: rgb(83, 83, 83);
+    transition: ease-in-out .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container div:nth-child(18) p:first-child, .grid-container div:nth-child(19) p:first-child, .grid-container div:nth-child(11) p:first-child{
+    line-height: 300px;
+}
+.grid-container div:nth-child(18) p:last-child, .grid-container div:nth-child(19) p:last-child, .grid-container div:nth-child(11) p:last-child{
+    display: none;
+}
+.grid-container div:nth-child(18):hover, .grid-container div:nth-child(19):hover, .grid-container div:nth-child(11):hover{
+    background-color: rgb(240, 240, 240);
+}
+.grid-container div a:hover > .long{
+    color: rgb(83, 83, 83);
+}
+.grid-container div {
+    background-image: url(../imagens/Kerala\ Backwater\ Free\ Vector.jpg);
+    background-position: 100px 50px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    min-width: 300px;
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+    .grid-container div:nth-child(5){
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .grid-container div:nth-child(11){
+        grid-area: 11 / 1 / 12 / 2;
+    }
+    .grid-container div:nth-child(15){
+        grid-area: 15 / 1 / 16 / 2;
+    }
+    .grid-container div:nth-child(18){
+        grid-area: 18 / 1 / 19 / 2;
+    }
+    .grid-container div:nth-child(19){
+        grid-area: 19 / 1 / 20 / 2;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+}

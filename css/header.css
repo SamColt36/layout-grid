@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    position: relative;
+    background-color: rgb(49, 49, 49);
+}
+header{
+    background-color: rgb(253, 253, 253);
+    height: 70px;
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+}
+header h1{
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.2em;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*  SMARTPHONE M */
+@media screen and (max-width: 320px){
+    
+}
+/*  SMARTPHONE G */
+@media screen and (min-width: 320px) and (max-width: 425px){
+    
+}
+/*  TABLET  */
+@media screen and (min-width: 767px) and (max-width:1024px){
+    
+}

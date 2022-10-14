@@ -1,0 +1,58 @@
+.social-media {
+    position: fixed;
+    top: 45vh;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    z-index: 100;
+}
+.social-media div {
+    padding: 5px;
+    font-size: 23px;
+    width: 35px;
+}
+.facebook,
+.instagram,
+.twitter,
+.envelope {
+    line-height: 23px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    transition: ease-in-out .3s;
+}
+.facebook:hover,
+.instagram:hover,
+.twitter:hover,
+.envelope:hover {
+    width: 50px;
+}
+.icon {
+    color: #fff;
+}
+.fa-facebook-f {
+    color: #fff;
+}
+.facebook:hover {
+    background-color: #5170bd;
+}
+.fa-instagram-f {
+    color: #f2a24b;
+}
+.instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+.fa-twitter-f {
+    color: #3B579D;
+}
+.twitter:hover {
+    background-color: #1DA0F2;
+}
+.fa-envelope-f {
+    color: #3B579D;
+}
+.envelope:hover{
+    background-color: #1c8a11;
+}
