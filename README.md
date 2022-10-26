@@ -5,14 +5,14 @@ template | css grid
 
 ##### Feito por Samuel SS, Fortaleza  Brasil
 
-## Proposta: 
+## Proposta
 
 Criação de um layout com css grid e flexbox.
 
-##### Dificuldade: 
+## Dificuldade
 
 Utilizar as propriedades reduzidas e atalhos.
 
-##### Conclusões: 
+## Conclusões 
 
 É importante conhecer os atalhos e melhores caminhos para que o código não fique enorme. 
