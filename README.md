@@ -1,18 +1,8 @@
-template | css grid
- # Layout Grid
+# LAYOUT GRID
+#### Feito por Samuel SS, Fortaleza  Brasil
 
+Criação de um layout com CSS Grid e flexbox.
+## Contextualização
 
-
-##### Feito por Samuel SS, Fortaleza  Brasil
-
-## Proposta
-
-Criação de um layout com css grid e flexbox.
-
-## Dificuldade
-
-Utilizar as propriedades reduzidas e atalhos.
-
-## Conclusões 
-
-É importante conhecer os atalhos e melhores caminhos para que o código não fique enorme. 
+Senti dificuldade em utilizar as propriedades reduzidas e os atalhos.
+>Conclusão: É importante conhecer os atalhos e melhores caminhos para que o código não fique enorme. 
